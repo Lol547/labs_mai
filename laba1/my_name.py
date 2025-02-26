@@ -7,6 +7,9 @@ class Calculator:
     def plus(self) -> int:
         return self.num_1 + self.num_2
 
+    def multiply(self) -> int:
+        return self.num_1 * self.num_2
+
 
 test = Calculator(2, 2)
-print(test.plus())
+print(test.plus(), test.multiply())
